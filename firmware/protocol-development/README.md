@@ -1,4 +1,4 @@
-# Clackpaq Firmware BETA
+# Protocol Proof of Concept
 
 This firmware emulates the original Compaq Portable keyboard protocol, allowing you to send keystrokes to a Compaq Portable I or Portable Plus via serial commands.
 

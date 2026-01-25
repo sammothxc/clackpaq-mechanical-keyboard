@@ -1,5 +1,5 @@
 /*
-* Clackpaq Firmware BETA
+* Protocol Proof of Concept
 * For Arduino Nano (ATmega328P)
 * 
 * Based on oscilloscope captures and IBM 5155 Technical Reference
@@ -176,7 +176,6 @@ void xt_write(uint8_t value, bool isBreak) {
 
   // return to idle
   dataHigh();
-
   delayMicroseconds(T_INTER_BYTE);
 }
 
