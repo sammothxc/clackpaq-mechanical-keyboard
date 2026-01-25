@@ -227,7 +227,7 @@ void setup() {
   Serial.begin(9600);
   clkHigh();
   dataHigh();
-  Serial.println(F("Clackpaq - Compaq Portable XT Keyboard Emulator"));
+  Serial.println(F("Clackpaq Compaq Portable XT Protocol Tester"));
   Serial.println(F("Idle: CLK=HIGH, DATA=HIGH"));
   Serial.println(F("Commands: BAT, RAW xx, MAKE xx, BREAK xx, TEST, SCOPE"));
   Serial.println(F("Or type text and press Enter"));
