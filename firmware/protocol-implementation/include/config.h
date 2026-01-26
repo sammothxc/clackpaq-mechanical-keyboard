@@ -12,18 +12,18 @@
 #define CONFIG_H
 #include <Arduino.h>
 
-#define XT_CLK  6 // C6
+#define XT_CLK  5 // C6
 #define XT_DATA 4 // D4
 #define ROWS 7
 #define COLS 10
 
 const uint8_t rowPins[ROWS] = {
-    A0, // F7, row 1 (pin F7 = A0)
+    18, // F7, row 1
     15, // B1, row 2
     16, // B2, row 3
-    A2, // F5, row 4 (pin F5 = A2)
-    A1, // F6, row 5 (pin F6 = A1)
-    A3, // F4, row 6 (pin F4 = A3)
+    20, // F5, row 4
+    19, // F6, row 5
+    21, // F4, row 6
     14  // B3, row 7
 };
 
@@ -31,13 +31,13 @@ const uint8_t colPins[COLS] = {
     7,   // E6, col 1
     8,   // B4, col 2
     9,   // B5, col 3
-    11,  // B7, col 4
-    22,  // D5, col 5
-    5,   // C7, col 6
-    A4,  // F1, col 7
-    A5,  // F0, col 8
+    11,  // B7, col 4?
+    TXLED0,  // D5, col 5?
+    13,   // C7, col 6?
+    A4,  // F1, col 7?
+    A5,  // F0, col 8?
     10,  // B6, col 9
-    17   // B0, col 10
+    RXLED1   // B0, col 10?
 };
 
 // 0 = no key (NC)
