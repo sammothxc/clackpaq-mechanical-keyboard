@@ -18,6 +18,8 @@
 #define LED_PIN 25
 #define XT_CLK  1
 #define XT_DATA 0
+#define XT_CLK_READ  19
+#define XT_DATA_READ  20
 
 #define ROWS 7
 #define COLS 10
