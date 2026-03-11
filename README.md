@@ -5,14 +5,13 @@ A drop-in replacement mechanical keyboard for the Compaq Portable I/Plus foam an
 
 ## Specifications
 
-- Controller: ATmega32U4
+- Controller: RP2040
 - Switches: MX Cherry
-- Keycaps: TBD
+- Keycaps: [Carbon PBT Double Shot Retro Orange](https://www.amazon.com/dp/B0D14Z76RH)
 - Plate: FR4
-- PCB: FR4, 2 layer
+- PCB: FR4, 2 layer, Hot-swappable
+- Backlit
 
 Pipe Dreams:
-- Backlit
-- Hot swappable sockets
 - Plates of other materials
 - Acoustic foam
