@@ -1,5 +1,5 @@
-![](assets/logo-dark.svg#gh-dark-mode-only)
-![](assets/logo-light.svg#gh-light-mode-only)
+![CLACKPAQ](assets/logo-dark.svg#gh-dark-mode-only)
+![CLACKPAQ](assets/logo-light.svg#gh-light-mode-only)
 
 A drop-in replacement mechanical keyboard for the Compaq Portable I/Plus foam and foil keyboard
 
@@ -12,6 +12,20 @@ A drop-in replacement mechanical keyboard for the Compaq Portable I/Plus foam an
 - PCB: FR4, 2 layer, Hot-swappable
 - Backlit
 
-Pipe Dreams:
+## Layout
+
+### Modern
+
+![Modern](assets/modern.png)
+
+### Compatible
+
+![Compatible](assets/compatible.png)
+
+### Original
+
+![Original](assets/original.png)
+
+## Pipe Dreams:
 - Plates of other materials
 - Acoustic foam
